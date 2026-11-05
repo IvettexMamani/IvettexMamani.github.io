@@ -25,6 +25,7 @@ export const siteConfig = {
   social: {
     linkedin: "https://www.linkedin.com/in/ivette-mamani-flores-b389b6260/",
     github: "https://github.com/IvettexMamani",
+    strava: "https://strava.app.link/nOuGVrw5N7b",
   },
   aboutMe:
     "Contadora con experiencia en gestión pública y proyectos sociales orientados al desarrollo de poblaciones vulnerables. Apasionada por la educación, el trabajo comunitario y el desarrollo social, busco aportar mis habilidades organizativas, humanas y de servicio en actividades que contribuyan a la formación integral de niñas y niños, promoviendo entornos inclusivos, seguros y con oportunidades para todos.",
@@ -208,7 +209,7 @@ export const siteConfig = {
   ],
   passions: [
     { icon: "viajar", name: "Viajar", text: "Conocer lugares nuevos y volver con otra mirada." },
-    { icon: "correr", name: "Correr", text: "Sumar kilómetros, sostener el ritmo y despejar la cabeza." },
+    { icon: "correr", name: "Correr", text: "Sumar kilómetros, sostener el ritmo y despejar la cabeza.", link: { label: "Mi perfil en Strava", url: "https://strava.app.link/nOuGVrw5N7b" } },
     { icon: "deporte", name: "Hacer deporte", text: "Constancia, energía y ganas de seguir mejorando." },
     { icon: "pintar", name: "Pintar", text: "Mi lado creativo: color, paciencia y ojo para el detalle." },
   ],

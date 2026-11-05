@@ -282,6 +282,33 @@ import { siteConfig } from "../config";
         </a>
       )
     }
+    {
+      siteConfig.social?.strava && (
+        <a
+          href={siteConfig.social.strava}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Strava"
+          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
+          >
+            <path d="M4.5 14l6 -11.5l6 11.5" />
+            <path d="M12.5 16l3 6l3 -6" />
+          </svg>
+        </a>
+      )
+    }
   </div>
 </div>
 
