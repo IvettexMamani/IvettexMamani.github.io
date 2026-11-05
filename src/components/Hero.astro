@@ -4,7 +4,7 @@ import { siteConfig } from "../config";
 
 <div
   id="hero"
-  class="relative isolate overflow-hidden bg-white py-24 lg:h-screen"
+  class="relative isolate overflow-hidden bg-white py-24 xl:h-screen"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
   <!-- Gradient overlay -->
@@ -32,8 +32,8 @@ import { siteConfig } from "../config";
         id="programming-symbols"
         x="0"
         y="0"
-        width="400"
-        height="400"
+        width="800"
+        height="620"
         patternUnits="userSpaceOnUse"
       >
         <text
@@ -129,7 +129,7 @@ import { siteConfig } from "../config";
       height="100%"
       stroke-width={0}></rect>
   </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex flex-col-reverse lg:flex-row items-start lg:items-center lg:justify-between gap-8 lg:gap-12">
+  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex flex-col-reverse xl:flex-row items-start xl:items-center xl:justify-between gap-8 xl:gap-12">
     <div class="min-w-0">
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
@@ -156,7 +156,7 @@ import { siteConfig } from "../config";
           alt={siteConfig.photoAlt}
           width="400"
           height="400"
-          class="size-36 sm:size-44 md:size-52 lg:size-72 shrink-0 rounded-full object-cover object-bottom shadow-xl ring-4 ring-white animate-fade-in animation-delay-400"
+          class="w-full max-w-sm sm:max-w-md xl:w-[28rem] xl:max-w-none aspect-[800/620] shrink-0 rounded-2xl object-cover shadow-xl animate-fade-in animation-delay-400"
         />
       )
     }
