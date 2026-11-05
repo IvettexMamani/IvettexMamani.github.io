@@ -28,8 +28,6 @@ export const siteConfig = {
   },
   aboutMe:
     "Contadora con experiencia en gestión pública y proyectos sociales orientados al desarrollo de poblaciones vulnerables. Apasionada por la educación, el trabajo comunitario y el desarrollo social, busco aportar mis habilidades organizativas, humanas y de servicio en actividades que contribuyan a la formación integral de niñas y niños, promoviendo entornos inclusivos, seguros y con oportunidades para todos.",
-  aboutExtra:
-    "He trabajado en instituciones públicas y uso Python e IA para convertir datos públicos en respuestas claras.",
   skillGroups: [
     {
       title: "Uso día a día",
