@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+:root {
+  color-scheme: light;
+}
+
 body {
   font-family: 'IBM Plex Mono', monospace;
+  background: #ffffff;
+  color: #1f2937;
+  overflow-x: clip;
+}
+
+a:focus-visible,
+video:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition: none !important;
+  }
 }
