@@ -6,6 +6,8 @@ export const siteConfig = {
   accentColor: "#0f766e",
   greeting: "¡Hola! 👋",
   intro: "Soy",
+  photo: "medios/foto-ivette.png",
+  photoAlt: "Ivette Mamani Flores frente al Big Ben, en Londres",
   labels: {
     about: "Sobre mí",
     projects: "Proyectos",
