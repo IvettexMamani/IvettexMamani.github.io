@@ -147,20 +147,7 @@ export const siteConfig = {
       ],
     },
   ],
-  experience: [
-    {
-      company: "Instituciones públicas",
-      title: "Profesional Técnico Especialista Administrador de Contratos",
-      dateRange: "sept. 2025 - actualidad",
-      bullets: [],
-    },
-    {
-      company: "Instituciones públicas",
-      title: "Asistente Administrativo",
-      dateRange: "ago. 2024 - ago. 2025",
-      bullets: [],
-    },
-  ],
+  experience: [],
   volunteering: [
     {
       company: "Voluntariado Magis Tacna",
